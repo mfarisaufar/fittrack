@@ -1,0 +1,7 @@
+node_modules/
+*.zip
+# Jangan pernah commit backup/data kesehatan pribadi
+fittrack-backup*.json
+fittrack-*.csv
+*.enc.json
+.env
