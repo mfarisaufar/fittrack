@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FitTrack</title>
+<meta name="description" content="FitTrack — pelacak kesehatan dan kebugaran pribadi. Data tersimpan lokal di perangkat.">
+<meta name="theme-color" content="#0f766e">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar"><h1 id="title">FitTrack</h1><span id="net" class="net" hidden>Offline</span></header>
+<div id="banner"></div>
+<main id="view" tabindex="-1" aria-live="polite"><div class="loading">Memuat…</div></main>
+<nav class="tabbar" id="tabbar" aria-label="Navigasi utama"></nav>
+<div id="toasts" aria-live="polite"></div>
+<noscript>FitTrack membutuhkan JavaScript.</noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

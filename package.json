@@ -1,0 +1,16 @@
+{
+  "name": "fittrack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FitTrack - Personal Health & Fitness Tracker (PWA local-first)",
+  "scripts": {
+    "icons": "node tools/make-icons.mjs",
+    "precache": "node tools/gen-precache.mjs",
+    "test": "node tools/gen-precache.mjs && node --test \"tests/*.test.mjs\"",
+    "serve": "node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.8"
+  }
+}
